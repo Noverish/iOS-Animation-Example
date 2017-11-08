@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C701FB2DC45009D8188 /* AppDelegate.swift */; };
-		279D5C731FB2DC45009D8188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C721FB2DC45009D8188 /* ViewController.swift */; };
-		279D5C761FB2DC45009D8188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C741FB2DC45009D8188 /* Main.storyboard */; };
 		279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C771FB2DC45009D8188 /* Assets.xcassets */; };
 		279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */; };
 		279D5C861FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C851FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift */; };
 		279D5C911FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C901FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift */; };
+		279D5CA01FB2DDDD009D8188 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C9F1FB2DDDD009D8188 /* VC1.swift */; };
+		279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CA11FB2DDE5009D8188 /* VC1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* Begin PBXFileReference section */
 		279D5C6D1FB2DC45009D8188 /* iOS-Animation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Animation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279D5C701FB2DC45009D8188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		279D5C721FB2DC45009D8188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		279D5C751FB2DC45009D8188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279D5C771FB2DC45009D8188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279D5C7A1FB2DC45009D8188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279D5C7C1FB2DC45009D8188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		279D5C8C1FB2DC45009D8188 /* iOS-Animation-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Animation-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279D5C901FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Animation_ExampleUITests.swift; sourceTree = "<group>"; };
 		279D5C921FB2DC45009D8188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279D5C9F1FB2DDDD009D8188 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		279D5CA11FB2DDE5009D8188 /* VC1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC1.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,8 @@
 		279D5C6F1FB2DC45009D8188 /* iOS-Animation-Example */ = {
 			isa = PBXGroup;
 			children = (
+				279D5C9E1FB2DDA1009D8188 /* chapter01 */,
 				279D5C701FB2DC45009D8188 /* AppDelegate.swift */,
-				279D5C721FB2DC45009D8188 /* ViewController.swift */,
-				279D5C741FB2DC45009D8188 /* Main.storyboard */,
 				279D5C771FB2DC45009D8188 /* Assets.xcassets */,
 				279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */,
 				279D5C7C1FB2DC45009D8188 /* Info.plist */,
@@ -123,6 +122,15 @@
 				279D5C921FB2DC45009D8188 /* Info.plist */,
 			);
 			path = "iOS-Animation-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		279D5C9E1FB2DDA1009D8188 /* chapter01 */ = {
+			isa = PBXGroup;
+			children = (
+				279D5C9F1FB2DDDD009D8188 /* VC1.swift */,
+				279D5CA11FB2DDE5009D8188 /* VC1.storyboard */,
+			);
+			path = chapter01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +242,7 @@
 			files = (
 				279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */,
 				279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */,
-				279D5C761FB2DC45009D8188 /* Main.storyboard in Resources */,
+				279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279D5C731FB2DC45009D8188 /* ViewController.swift in Sources */,
+				279D5CA01FB2DDDD009D8188 /* VC1.swift in Sources */,
 				279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		279D5C741FB2DC45009D8188 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279D5C751FB2DC45009D8188 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
