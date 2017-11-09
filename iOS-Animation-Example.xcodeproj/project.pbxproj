@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27791E851FB4028C006FC593 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27791E841FB4028C006FC593 /* VC4.swift */; };
+		27791E871FB40296006FC593 /* VC4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27791E861FB40296006FC593 /* VC4.storyboard */; };
+		27791E891FB4049B006FC593 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27791E881FB4049B006FC593 /* SnowView.swift */; };
 		279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C701FB2DC45009D8188 /* AppDelegate.swift */; };
 		279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C771FB2DC45009D8188 /* Assets.xcassets */; };
 		279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27791E841FB4028C006FC593 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		27791E861FB40296006FC593 /* VC4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC4.storyboard; sourceTree = "<group>"; };
+		27791E881FB4049B006FC593 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 		279D5C6D1FB2DC45009D8188 /* iOS-Animation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Animation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279D5C701FB2DC45009D8188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		279D5C771FB2DC45009D8188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27791E831FB40276006FC593 /* chapter04 */ = {
+			isa = PBXGroup;
+			children = (
+				27791E841FB4028C006FC593 /* VC4.swift */,
+				27791E861FB40296006FC593 /* VC4.storyboard */,
+				27791E881FB4049B006FC593 /* SnowView.swift */,
+			);
+			path = chapter04;
+			sourceTree = "<group>";
+		};
 		279D5C641FB2DC45009D8188 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,7 @@
 				279D5C9E1FB2DDA1009D8188 /* chapter01 */,
 				279D5CA31FB2E8B1009D8188 /* chapter02 */,
 				279D5CA81FB2F161009D8188 /* chapter03 */,
+				27791E831FB40276006FC593 /* chapter04 */,
 			);
 			path = "iOS-Animation-Example";
 			sourceTree = "<group>";
@@ -277,6 +294,7 @@
 				279D5CA71FB2E8D0009D8188 /* VC2.storyboard in Resources */,
 				279D5CAC1FB2F18A009D8188 /* VC3.storyboard in Resources */,
 				279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */,
+				27791E871FB40296006FC593 /* VC4.storyboard in Resources */,
 				279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */,
 				279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */,
 				279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */,
@@ -306,7 +324,9 @@
 			files = (
 				279D5CAA1FB2F174009D8188 /* VC3.swift in Sources */,
 				279D5CB01FB2F44F009D8188 /* MainVC.swift in Sources */,
+				27791E891FB4049B006FC593 /* SnowView.swift in Sources */,
 				279D5CA51FB2E8C7009D8188 /* VC2.swift in Sources */,
+				27791E851FB4028C006FC593 /* VC4.swift in Sources */,
 				279D5CA01FB2DDDD009D8188 /* VC1.swift in Sources */,
 				279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */,
 			);
