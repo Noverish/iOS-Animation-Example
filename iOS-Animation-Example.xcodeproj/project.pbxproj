@@ -16,6 +16,10 @@
 		279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CA11FB2DDE5009D8188 /* VC1.storyboard */; };
 		279D5CA51FB2E8C7009D8188 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5CA41FB2E8C7009D8188 /* VC2.swift */; };
 		279D5CA71FB2E8D0009D8188 /* VC2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CA61FB2E8D0009D8188 /* VC2.storyboard */; };
+		279D5CAA1FB2F174009D8188 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5CA91FB2F174009D8188 /* VC3.swift */; };
+		279D5CAC1FB2F18A009D8188 /* VC3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CAB1FB2F18A009D8188 /* VC3.storyboard */; };
+		279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CAD1FB2F43D009D8188 /* Main.storyboard */; };
+		279D5CB01FB2F44F009D8188 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5CAF1FB2F44F009D8188 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		279D5CA11FB2DDE5009D8188 /* VC1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC1.storyboard; sourceTree = "<group>"; };
 		279D5CA41FB2E8C7009D8188 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		279D5CA61FB2E8D0009D8188 /* VC2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC2.storyboard; sourceTree = "<group>"; };
+		279D5CA91FB2F174009D8188 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		279D5CAB1FB2F18A009D8188 /* VC3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC3.storyboard; sourceTree = "<group>"; };
+		279D5CAD1FB2F43D009D8188 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		279D5CAF1FB2F44F009D8188 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +109,15 @@
 		279D5C6F1FB2DC45009D8188 /* iOS-Animation-Example */ = {
 			isa = PBXGroup;
 			children = (
+				279D5C7C1FB2DC45009D8188 /* Info.plist */,
+				279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */,
+				279D5C771FB2DC45009D8188 /* Assets.xcassets */,
+				279D5C701FB2DC45009D8188 /* AppDelegate.swift */,
+				279D5CAF1FB2F44F009D8188 /* MainVC.swift */,
+				279D5CAD1FB2F43D009D8188 /* Main.storyboard */,
 				279D5C9E1FB2DDA1009D8188 /* chapter01 */,
 				279D5CA31FB2E8B1009D8188 /* chapter02 */,
-				279D5C701FB2DC45009D8188 /* AppDelegate.swift */,
-				279D5C771FB2DC45009D8188 /* Assets.xcassets */,
-				279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */,
-				279D5C7C1FB2DC45009D8188 /* Info.plist */,
+				279D5CA81FB2F161009D8188 /* chapter03 */,
 			);
 			path = "iOS-Animation-Example";
 			sourceTree = "<group>";
@@ -145,6 +156,15 @@
 				279D5CA61FB2E8D0009D8188 /* VC2.storyboard */,
 			);
 			path = chapter02;
+			sourceTree = "<group>";
+		};
+		279D5CA81FB2F161009D8188 /* chapter03 */ = {
+			isa = PBXGroup;
+			children = (
+				279D5CA91FB2F174009D8188 /* VC3.swift */,
+				279D5CAB1FB2F18A009D8188 /* VC3.storyboard */,
+			);
+			path = chapter03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				279D5CA71FB2E8D0009D8188 /* VC2.storyboard in Resources */,
+				279D5CAC1FB2F18A009D8188 /* VC3.storyboard in Resources */,
 				279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */,
+				279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */,
 				279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */,
 				279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */,
 			);
@@ -282,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279D5CAA1FB2F174009D8188 /* VC3.swift in Sources */,
+				279D5CB01FB2F44F009D8188 /* MainVC.swift in Sources */,
 				279D5CA51FB2E8C7009D8188 /* VC2.swift in Sources */,
 				279D5CA01FB2DDDD009D8188 /* VC1.swift in Sources */,
 				279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */,

@@ -83,14 +83,6 @@ class VC1: UIViewController {
         }, completion: nil)
     }
     
-    @IBAction func nextClicked() {
-        dismiss(animated: false)
-    
-        let storyboard = UIStoryboard(name: "VC2", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "VC2") as UIViewController
-        present(vc, animated: false, completion: nil)
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -104,22 +104,6 @@ class VC2: UIViewController {
                 self.button2.backgroundColor = self.button2.backgroundColor == UIColor.blue ? UIColor.red : UIColor.blue
         }, completion: nil)
     }
-    
-    @IBAction func prevClicked() {
-        dismiss(animated: false)
-        
-        let storyboard = UIStoryboard(name: "VC1", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "VC1") as UIViewController
-        present(vc, animated: false, completion: nil)
-    }
-    
-    @IBAction func nextClicked() {
-        dismiss(animated: false)
-        
-        let storyboard = UIStoryboard(name: "VC3", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "VC3") as UIViewController
-        present(vc, animated: false, completion: nil)
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
