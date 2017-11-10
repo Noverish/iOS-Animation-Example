@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2707705E1FB5827700DB3DA2 /* VC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2707705D1FB5827700DB3DA2 /* VC5.swift */; };
+		270770601FB5827F00DB3DA2 /* VC5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2707705F1FB5827F00DB3DA2 /* VC5.storyboard */; };
 		27791E851FB4028C006FC593 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27791E841FB4028C006FC593 /* VC4.swift */; };
 		27791E871FB40296006FC593 /* VC4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27791E861FB40296006FC593 /* VC4.storyboard */; };
 		27791E891FB4049B006FC593 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27791E881FB4049B006FC593 /* SnowView.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2707705D1FB5827700DB3DA2 /* VC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5.swift; sourceTree = "<group>"; };
+		2707705F1FB5827F00DB3DA2 /* VC5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC5.storyboard; sourceTree = "<group>"; };
 		27791E841FB4028C006FC593 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 		27791E861FB40296006FC593 /* VC4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC4.storyboard; sourceTree = "<group>"; };
 		27791E881FB4049B006FC593 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2707705C1FB5825F00DB3DA2 /* chapter05 */ = {
+			isa = PBXGroup;
+			children = (
+				2707705D1FB5827700DB3DA2 /* VC5.swift */,
+				2707705F1FB5827F00DB3DA2 /* VC5.storyboard */,
+			);
+			path = chapter05;
+			sourceTree = "<group>";
+		};
 		27791E831FB40276006FC593 /* chapter04 */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +148,7 @@
 				279D5CA31FB2E8B1009D8188 /* chapter02 */,
 				279D5CA81FB2F161009D8188 /* chapter03 */,
 				27791E831FB40276006FC593 /* chapter04 */,
+				2707705C1FB5825F00DB3DA2 /* chapter05 */,
 			);
 			path = "iOS-Animation-Example";
 			sourceTree = "<group>";
@@ -294,6 +308,7 @@
 				279D5CA71FB2E8D0009D8188 /* VC2.storyboard in Resources */,
 				279D5CAC1FB2F18A009D8188 /* VC3.storyboard in Resources */,
 				279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */,
+				270770601FB5827F00DB3DA2 /* VC5.storyboard in Resources */,
 				27791E871FB40296006FC593 /* VC4.storyboard in Resources */,
 				279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */,
 				279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */,
@@ -324,6 +339,7 @@
 			files = (
 				279D5CAA1FB2F174009D8188 /* VC3.swift in Sources */,
 				279D5CB01FB2F44F009D8188 /* MainVC.swift in Sources */,
+				2707705E1FB5827700DB3DA2 /* VC5.swift in Sources */,
 				27791E891FB4049B006FC593 /* SnowView.swift in Sources */,
 				279D5CA51FB2E8C7009D8188 /* VC2.swift in Sources */,
 				27791E851FB4028C006FC593 /* VC4.swift in Sources */,

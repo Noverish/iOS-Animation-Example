@@ -14,7 +14,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         "01-getting-started-with-view-animations",
         "02-springs",
         "03-transitions",
-        "04-view-animations-in-practice"
+        "04-view-animations-in-practice",
+        "05-keyframe-animations"
     ]
 
     override func viewDidLoad() {

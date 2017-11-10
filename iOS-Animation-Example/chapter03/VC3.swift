@@ -83,15 +83,17 @@ class VC3: UIViewController {
                           completion: nil
         )
         
-        
-        UIView.transition(with: self.view7,
-                          duration: 0.7,
-                          options: [.curveEaseOut, .transitionCrossDissolve],
-                          animations: {
-                            
-        },
-                          completion: nil
-        )
+        view7.isHidden = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            UIView.transition(with: self.view7,
+                              duration: 0.7,
+                              options: [.curveEaseOut, .transitionCrossDissolve],
+                              animations: {
+                                self.view7.isHidden = false
+            },
+                              completion: nil
+            )
+        }
         
         view8.isHidden = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
