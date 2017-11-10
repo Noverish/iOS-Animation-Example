@@ -12,6 +12,9 @@ class VC5: UIViewController {
     
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var label: UILabel!
+    
+    var count = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +71,27 @@ class VC5: UIViewController {
             },
             completion: nil
         )
+        
+        count += 1
+        UIView.animateKeyframes(
+            withDuration: 1.5,
+            delay: 0.0,
+            animations: {
+                UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.25) {
+                    self.label.center.y -= 30.0
+                    self.label.alpha = 0
+                }
+                
+                UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.25) {
+                    self.label.center.y += 30.0
+                    self.label.alpha = 1
+                }
+        },
+            completion: nil
+        )
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.label.text = "Chapter05 - \(self.count)"
+        }
     }
 
 }

@@ -61,6 +61,13 @@ at the same time</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter05 - 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dZ-fh-HuD">
+                                                <rect key="frame" x="55" y="78" width="273" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -91,6 +98,7 @@ at the same time</string>
                         <viewLayoutGuide key="safeArea" id="W0p-Kf-WCM"/>
                     </view>
                     <connections>
+                        <outlet property="label" destination="8dZ-fh-HuD" id="cnD-NS-z4m"/>
                         <outlet property="view1" destination="BJ0-Iw-RfK" id="4lO-N9-85J"/>
                         <outlet property="view2" destination="JfP-al-EkY" id="hgm-zt-nON"/>
                     </connections>
