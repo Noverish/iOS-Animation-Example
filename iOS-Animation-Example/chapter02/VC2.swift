@@ -59,19 +59,19 @@ class VC2: UIViewController {
         }, completion: nil)
         
         UIView.animate(withDuration: 3, delay: 0.0,
-                       usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: [],
+                       usingSpringWithDamping: 0.5, initialSpringVelocity: 1.0, options: [],
                        animations: {
                         self.view4.center.x += self.view.bounds.width
         }, completion: nil)
         
         UIView.animate(withDuration: 3, delay: 0.0,
-                       usingSpringWithDamping: 0.5, initialSpringVelocity: 1.0, options: [],
+                       usingSpringWithDamping: 0.5, initialSpringVelocity: 1.5, options: [],
                        animations: {
                         self.view5.center.x += self.view.bounds.width
         }, completion: nil)
         
         UIView.animate(withDuration: 3, delay: 0.0,
-                       usingSpringWithDamping: 0.5, initialSpringVelocity: 3.0, options: [],
+                       usingSpringWithDamping: 0.5, initialSpringVelocity: 2.0, options: [],
                        animations: {
                         self.view6.center.x += self.view.bounds.width
         }, completion: nil)

@@ -84,7 +84,7 @@ class VC3: UIViewController {
         )
         
         view7.isHidden = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             UIView.transition(with: self.view7,
                               duration: 0.7,
                               options: [.curveEaseOut, .transitionCrossDissolve],
@@ -96,7 +96,7 @@ class VC3: UIViewController {
         }
         
         view8.isHidden = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             UIView.transition(with: self.view8,
                               duration: 0.7,
                               options: [.curveEaseOut, .transitionCurlDown],
@@ -108,7 +108,7 @@ class VC3: UIViewController {
         }
         
         view9.isHidden = false
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             UIView.transition(with: self.view9,
                               duration: 0.7,
                               options: [.curveEaseOut, .transitionCurlUp],

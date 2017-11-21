@@ -15,8 +15,6 @@
 		279D5C711FB2DC45009D8188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C701FB2DC45009D8188 /* AppDelegate.swift */; };
 		279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C771FB2DC45009D8188 /* Assets.xcassets */; };
 		279D5C7B1FB2DC45009D8188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */; };
-		279D5C861FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C851FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift */; };
-		279D5C911FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C901FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift */; };
 		279D5CA01FB2DDDD009D8188 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5C9F1FB2DDDD009D8188 /* VC1.swift */; };
 		279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CA11FB2DDE5009D8188 /* VC1.storyboard */; };
 		279D5CA51FB2E8C7009D8188 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5CA41FB2E8C7009D8188 /* VC2.swift */; };
@@ -26,23 +24,6 @@
 		279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279D5CAD1FB2F43D009D8188 /* Main.storyboard */; };
 		279D5CB01FB2F44F009D8188 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D5CAF1FB2F44F009D8188 /* MainVC.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		279D5C821FB2DC45009D8188 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 279D5C651FB2DC45009D8188 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 279D5C6C1FB2DC45009D8188;
-			remoteInfo = "iOS-Animation-Example";
-		};
-		279D5C8D1FB2DC45009D8188 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 279D5C651FB2DC45009D8188 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 279D5C6C1FB2DC45009D8188;
-			remoteInfo = "iOS-Animation-Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2707705D1FB5827700DB3DA2 /* VC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5.swift; sourceTree = "<group>"; };
@@ -55,12 +36,6 @@
 		279D5C771FB2DC45009D8188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279D5C7A1FB2DC45009D8188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279D5C7C1FB2DC45009D8188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279D5C811FB2DC45009D8188 /* iOS-Animation-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Animation-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279D5C851FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Animation_ExampleTests.swift; sourceTree = "<group>"; };
-		279D5C871FB2DC45009D8188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279D5C8C1FB2DC45009D8188 /* iOS-Animation-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Animation-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279D5C901FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Animation_ExampleUITests.swift; sourceTree = "<group>"; };
-		279D5C921FB2DC45009D8188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279D5C9F1FB2DDDD009D8188 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
 		279D5CA11FB2DDE5009D8188 /* VC1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VC1.storyboard; sourceTree = "<group>"; };
 		279D5CA41FB2E8C7009D8188 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
@@ -73,20 +48,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		279D5C6A1FB2DC45009D8188 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279D5C7E1FB2DC45009D8188 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279D5C891FB2DC45009D8188 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				279D5C6F1FB2DC45009D8188 /* iOS-Animation-Example */,
-				279D5C841FB2DC45009D8188 /* iOS-Animation-ExampleTests */,
-				279D5C8F1FB2DC45009D8188 /* iOS-Animation-ExampleUITests */,
 				279D5C6E1FB2DC45009D8188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				279D5C6D1FB2DC45009D8188 /* iOS-Animation-Example.app */,
-				279D5C811FB2DC45009D8188 /* iOS-Animation-ExampleTests.xctest */,
-				279D5C8C1FB2DC45009D8188 /* iOS-Animation-ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +108,6 @@
 				2707705C1FB5825F00DB3DA2 /* chapter05 */,
 			);
 			path = "iOS-Animation-Example";
-			sourceTree = "<group>";
-		};
-		279D5C841FB2DC45009D8188 /* iOS-Animation-ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				279D5C851FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift */,
-				279D5C871FB2DC45009D8188 /* Info.plist */,
-			);
-			path = "iOS-Animation-ExampleTests";
-			sourceTree = "<group>";
-		};
-		279D5C8F1FB2DC45009D8188 /* iOS-Animation-ExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				279D5C901FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift */,
-				279D5C921FB2DC45009D8188 /* Info.plist */,
-			);
-			path = "iOS-Animation-ExampleUITests";
 			sourceTree = "<group>";
 		};
 		279D5C9E1FB2DDA1009D8188 /* chapter01 */ = {
@@ -218,42 +157,6 @@
 			productReference = 279D5C6D1FB2DC45009D8188 /* iOS-Animation-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		279D5C801FB2DC45009D8188 /* iOS-Animation-ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279D5C981FB2DC45009D8188 /* Build configuration list for PBXNativeTarget "iOS-Animation-ExampleTests" */;
-			buildPhases = (
-				279D5C7D1FB2DC45009D8188 /* Sources */,
-				279D5C7E1FB2DC45009D8188 /* Frameworks */,
-				279D5C7F1FB2DC45009D8188 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				279D5C831FB2DC45009D8188 /* PBXTargetDependency */,
-			);
-			name = "iOS-Animation-ExampleTests";
-			productName = "iOS-Animation-ExampleTests";
-			productReference = 279D5C811FB2DC45009D8188 /* iOS-Animation-ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		279D5C8B1FB2DC45009D8188 /* iOS-Animation-ExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279D5C9B1FB2DC45009D8188 /* Build configuration list for PBXNativeTarget "iOS-Animation-ExampleUITests" */;
-			buildPhases = (
-				279D5C881FB2DC45009D8188 /* Sources */,
-				279D5C891FB2DC45009D8188 /* Frameworks */,
-				279D5C8A1FB2DC45009D8188 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				279D5C8E1FB2DC45009D8188 /* PBXTargetDependency */,
-			);
-			name = "iOS-Animation-ExampleUITests";
-			productName = "iOS-Animation-ExampleUITests";
-			productReference = 279D5C8C1FB2DC45009D8188 /* iOS-Animation-ExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,16 +170,6 @@
 					279D5C6C1FB2DC45009D8188 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					279D5C801FB2DC45009D8188 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 279D5C6C1FB2DC45009D8188;
-					};
-					279D5C8B1FB2DC45009D8188 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 279D5C6C1FB2DC45009D8188;
 					};
 				};
 			};
@@ -294,8 +187,6 @@
 			projectRoot = "";
 			targets = (
 				279D5C6C1FB2DC45009D8188 /* iOS-Animation-Example */,
-				279D5C801FB2DC45009D8188 /* iOS-Animation-ExampleTests */,
-				279D5C8B1FB2DC45009D8188 /* iOS-Animation-ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,20 +204,6 @@
 				279D5CAE1FB2F43D009D8188 /* Main.storyboard in Resources */,
 				279D5C781FB2DC45009D8188 /* Assets.xcassets in Resources */,
 				279D5CA21FB2DDE5009D8188 /* VC1.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279D5C7F1FB2DC45009D8188 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279D5C8A1FB2DC45009D8188 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,36 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279D5C7D1FB2DC45009D8188 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279D5C861FB2DC45009D8188 /* iOS_Animation_ExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279D5C881FB2DC45009D8188 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279D5C911FB2DC45009D8188 /* iOS_Animation_ExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		279D5C831FB2DC45009D8188 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 279D5C6C1FB2DC45009D8188 /* iOS-Animation-Example */;
-			targetProxy = 279D5C821FB2DC45009D8188 /* PBXContainerItemProxy */;
-		};
-		279D5C8E1FB2DC45009D8188 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 279D5C6C1FB2DC45009D8188 /* iOS-Animation-Example */;
-			targetProxy = 279D5C8D1FB2DC45009D8188 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		279D5C791FB2DC45009D8188 /* LaunchScreen.storyboard */ = {
@@ -528,72 +376,6 @@
 			};
 			name = Release;
 		};
-		279D5C991FB2DC45009D8188 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28A4E58A28;
-				INFOPLIST_FILE = "iOS-Animation-ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Noverish.iOS-Animation-ExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Animation-Example.app/iOS-Animation-Example";
-			};
-			name = Debug;
-		};
-		279D5C9A1FB2DC45009D8188 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28A4E58A28;
-				INFOPLIST_FILE = "iOS-Animation-ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Noverish.iOS-Animation-ExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Animation-Example.app/iOS-Animation-Example";
-			};
-			name = Release;
-		};
-		279D5C9C1FB2DC45009D8188 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28A4E58A28;
-				INFOPLIST_FILE = "iOS-Animation-ExampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Noverish.iOS-Animation-ExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iOS-Animation-Example";
-			};
-			name = Debug;
-		};
-		279D5C9D1FB2DC45009D8188 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28A4E58A28;
-				INFOPLIST_FILE = "iOS-Animation-ExampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Noverish.iOS-Animation-ExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iOS-Animation-Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -611,24 +393,6 @@
 			buildConfigurations = (
 				279D5C961FB2DC45009D8188 /* Debug */,
 				279D5C971FB2DC45009D8188 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		279D5C981FB2DC45009D8188 /* Build configuration list for PBXNativeTarget "iOS-Animation-ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				279D5C991FB2DC45009D8188 /* Debug */,
-				279D5C9A1FB2DC45009D8188 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		279D5C9B1FB2DC45009D8188 /* Build configuration list for PBXNativeTarget "iOS-Animation-ExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				279D5C9C1FB2DC45009D8188 /* Debug */,
-				279D5C9D1FB2DC45009D8188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
