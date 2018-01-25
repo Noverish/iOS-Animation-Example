@@ -18,7 +18,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         "05-keyframe-animations",
         "nil",
         "nil",
-        "08-getting-started-with-layer-animations"
+        "08-getting-started-with-layer-animations",
+        "09-animation-keys-and-delegates"
     ]
 
     override func viewDidLoad() {
